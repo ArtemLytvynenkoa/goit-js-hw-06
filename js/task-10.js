@@ -30,6 +30,7 @@ const onButtonCreateClick = () => {
 
 const onButtonDestroyClick = () => {
   container.innerHTML = '';
+  inputEl.value = 0;
 };
 
 inputEl.addEventListener('change', onInputChange);
