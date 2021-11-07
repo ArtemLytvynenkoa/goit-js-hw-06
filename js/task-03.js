@@ -25,3 +25,9 @@ const listEl = document.querySelector('.gallery');
 const makeGallery = images.map(makeGalleryMarkup).join('');
 
 listEl.insertAdjacentHTML('beforeend', makeGallery)
+
+listEl.style.display = "flex";
+listEl.style.listStyle = "none";
+listEl.style.marginLeft = "auto";
+listEl.style.marginRight = "auto";
+

@@ -23,19 +23,4 @@ button {
   cursor: pointer;
 }
 
-.gallery {
-  list-style: none;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-}
 
-.item {
-  width: 100/3 - 15px;
-  height: 100%;
-  margin-right: 15px;
-}
-
-.image {
-  display: block;
-}
